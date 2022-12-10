@@ -13,7 +13,7 @@ const inputContainer = document.querySelector('#input-container'),
 
 let countdownTitle = '';
 let countdownDate = '';    
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 let savedCountdown = {};
 
